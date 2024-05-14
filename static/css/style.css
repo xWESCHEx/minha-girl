@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'NATS';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NATS Regular'), url('/static/fonts/NATS-Regular.woff') format('woff');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -ms-user-select: none;
+}
+*::selection{
+    background: none;
+}
+header{
+    display: flex;
+}
+.encabezado{
+    width: 100vw;
+    display: flex;
+    background-color: #D9D9D9;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.encabezado a{
+    text-decoration: none;
+    color: #000;
+    font-family: "KoHo";
+    font-size: 20px;
+}
+.barra_nav{
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+.barra_nav img{
+    height: 54px;
+}
+.barra_nav a:hover{
+    color: #682828;
+    font-weight: 800;
+}
+.espace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name_of_page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.name_of_page img{
+    margin-bottom:-10px ;
+    height: 50px;
+    width: 140px;
+}
+.name_of_page h3{
+    font-family: "Krona One";
+    font-size: 30px;
+}
+.name_of_page a{
+    font-family: "Krona One";
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+
+
+
+
+/*FOOTER*/
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    font-family: "NATS";
+}
+.app{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.app img{
+    width: 34px;
+    filter: grayscale(0.4);
+}
+.app a{
+    text-decoration: none;
+    color: #000;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    font-family: "NATS";
+    padding: 2vh;
+}
